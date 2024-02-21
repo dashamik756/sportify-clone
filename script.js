@@ -22,6 +22,55 @@ let songs =[
     {songName: "HINDI SONGS", filePath: "songs/10.mp3", coverPath: "covers/1.jpg"},
     {songName: "HINDI SONGS", filePath: "songs/11.mp3", coverPath: "covers/1.jpg"},
     {songName: "HINDI SONGS", filePath: "songs/12.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/13.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/14.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/15.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/16.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/17.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/18.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/19.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/20.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/21.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/22.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/23.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/24.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/25.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/26.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/27.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/28.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/29.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/30.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/31.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/32.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/33.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/34.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/35.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/36.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/37.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/38.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/39.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/40.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/41.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/42.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/43.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/44.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/45.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/46.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/47.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/48.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/49.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/50.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/51.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/52.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/53.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/54.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/55.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/56.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/57.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/58.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/59.mp3", coverPath: "covers/1.jpg"},
+
+
 
    
 
@@ -98,7 +147,7 @@ Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>{
     })
 })
 document.getElementById('next').addEventListener('click',()=>{
-    if(songIndex>=12){
+    if(songIndex>=59){
         songIndex = 0
     }
     else{
