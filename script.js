@@ -10,11 +10,18 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 console.log(songItems);
 let songs =[
-    {songName: "Salam-e-Ishq", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Salam-e-Ishq", filePath: "songs/3.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Salam-e-Ishq", filePath: "songs/4.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Salam-e-Ishq", filePath: "songs/5.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/2.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/3.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/4.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/5.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/6.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/7.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/8.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/9.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/10.mp3", coverPath: "covers/1.jpg"},
+
+
 ]
 songItems.forEach((element,i)=>{
     element.getElementsByTagName("img")[0].src = songs[i].coverPath;
