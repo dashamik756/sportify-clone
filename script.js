@@ -20,6 +20,11 @@ let songs =[
     {songName: "HINDI SONGS", filePath: "songs/8.mp3", coverPath: "covers/1.jpg"},
     {songName: "HINDI SONGS", filePath: "songs/9.mp3", coverPath: "covers/1.jpg"},
     {songName: "HINDI SONGS", filePath: "songs/10.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/11.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/12.mp3", coverPath: "covers/1.jpg"},
+
+   
+
 ]
 songItems.forEach((element,i)=>{
     element.getElementsByTagName("img")[0].src = songs[i].coverPath;
@@ -34,7 +39,7 @@ songs.forEach((song, index) => {
         <img alt="${index}" src="${song.coverPath}" />
         <span class="songName">${song.songName}</span>
         <span class="songlistplay">
-            <span class="timestamp">05.34<i id="${index}" class="far songItemPlay fa-play-circle"></i></span>
+            <span class="timestamp">55.42<i id="${index}" class="far songItemPlay fa-play-circle"></i></span>
         </span>
     `;
     
@@ -93,7 +98,7 @@ Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>{
     })
 })
 document.getElementById('next').addEventListener('click',()=>{
-    if(songIndex>=10){
+    if(songIndex>=12){
         songIndex = 0
     }
     else{
