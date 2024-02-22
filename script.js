@@ -204,6 +204,20 @@ let songs =[
     {songName: "HINDI SONGS", filePath: "songs/194.mp3", coverPath: "covers/1.jpg"},
     {songName: "HINDI SONGS", filePath: "songs/195.mp3", coverPath: "covers/1.jpg"},
     {songName: "HINDI SONGS", filePath: "songs/196.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/197.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/198.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/199.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/200.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/201.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/202.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/203.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/204.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/205.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/206.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/207.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/208.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/209.mp3", coverPath: "covers/1.jpg"},
+    {songName: "HINDI SONGS", filePath: "songs/210.mp3", coverPath: "covers/1.jpg"},
    
 
 
@@ -283,7 +297,7 @@ Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>{
     })
 })
 document.getElementById('next').addEventListener('click',()=>{
-    if(songIndex>=196){
+    if(songIndex>=210){
         songIndex = 0
     }
     else{
